@@ -64,8 +64,6 @@
         </div>
     </div>
     <!-- Topbar End -->
-
-
     <!-- Navbar Start -->
     <div class="container-fluid">
         <div class="row border-top px-xl-5">
@@ -129,8 +127,6 @@
         </div>
     </div>
     <!-- Navbar End -->
-
-
     <!-- Carousel Start -->
     <div class="container-fluid p-0 pb-2 mb-2">
         <div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
@@ -171,8 +167,6 @@
         </div>
     </div>
     <!-- Carousel End -->
-
-
     <!-- About Start -->
     <div class="container-fluid py-5">
         <div class="container py-5">
@@ -230,9 +224,74 @@
             </div>
         </div>
     </div>
-    <!-- Category Start -->
-
-
+    <!-- PythonModal -->
+    <div class="modal fade" id="PythonModal" role="dialog" class="modal" tabindex="-1">
+        <div class="modal-dialog">
+        <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                <h4>Python</h4>
+                </div>
+                <div class="modal-body" style="padding:10px 20px;">
+                   <p>
+                    <b>What is Python used for?</b><br/><br/>
+                    Python is commonly used for developing websites and software, task automation, data analysis, and data visualization. Since it’s relatively easy to learn, Python has been adopted by many non-programmers such as accountants and scientists, for a variety of everyday tasks, like organizing finances.
+                    “Writing programs is a very creative and rewarding activity,” says University of Michigan and Coursera instructor Charles R Severance in his book Python for Everybody. “You can write programs for many reasons, ranging from making your living to solving a difficult data analysis problem to having fun to helping someone else solve a problem.”
+                    <br/>
+                    <br/>
+                    <b>What can you do with python? Some things include:</b><br/>
+                    <ul>
+                        <li>Data analysis and machine learning</li>
+                        <li>Web development</li>
+                        <li>Automation or scripting</li>
+                        <li>Software testing and prototyping</li>
+                        <li>Everyday tasks</li>
+                      </ul>
+                   </p>
+                </div>
+                <div class="modal-footer">
+                <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Close</button>
+                </div>
+            </div>
+        
+        </div>
+    </div> 
+    <!-- End Modal -->
+    <!-- CSharpModal -->
+    <div class="modal fade" id="CSharpModal" role="dialog" class="modal" tabindex="-1">
+        <div class="modal-dialog">
+        <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                <h4>C# and ASP.NET Core</h4>
+                </div>
+                <div class="modal-body" style="padding:10px 20px;">
+                   <p>
+                    <b>What is C# used for?</b><br/><br/>
+                    Like other general-purpose programming languages, C# can be used to create a number of different programs and applications: 
+                    mobile apps, desktop apps, cloud-based services, websites, enterprise software and games. Lots and lots of games.                    
+                    <br/>
+                    <br/>
+                    <b>What is ASP.NET Core used fo?</b><br/><br/>
+                    ASP.NET Core is a cross-platform, high-performance, open-source framework for building modern, 
+                    cloud-enabled, Internet-connected apps. With ASP.NET Core, you can: Build web apps and services, 
+                    Internet of Things (IoT) apps, and mobile backends. Use your favorite development tools on Windows, macOS, and Linux.
+                    <br/><br/><b>What can you do with C#? Some things include:</b><br/>
+                    <ul>
+                        <li>Windows applications</li>
+                        <li>C# for Games</li>
+                        <li>C# for website development</li>
+                      </ul>
+                   </p>
+                </div>
+                <div class="modal-footer">
+                <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Close</button>
+                </div>
+            </div>
+        
+        </div>
+    </div> 
+    <!-- End Modal -->
     <!-- Courses Start -->
     <div class="container-fluid py-5">
         <div class="container py-5">
@@ -249,7 +308,8 @@
                                 <small class="m-0"><i class="fa fa-users text-primary mr-2"></i>5 Students</small>
                                 <small class="m-0"><i class="far fa-clock text-primary mr-2"></i>02h 30m</small>
                             </div>
-                            <a class="h5" href="">Python for beginner</a>
+                            <!-- Links -->
+                            <a class="h5" data-toggle="modal" href="#PythonModal">Python for beginner</a>
                             <div class="border-top mt-4 pt-4">
                                 <div class="d-flex justify-content-between">
                                     <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>10 <small>meetings</small></h6>
@@ -267,7 +327,7 @@
                                 <small class="m-0"><i class="fa fa-users text-primary mr-2"></i>5 Students</small>
                                 <small class="m-0"><i class="far fa-clock text-primary mr-2"></i>02h 30m</small>
                             </div>
-                            <a class="h5" href="">Python for advanced</a>
+                            <a class="h5" data-toggle="modal" href="#PythonModal">Python for advanced</a>
                             <div class="border-top mt-4 pt-4">
                                 <div class="d-flex justify-content-between">
                                     <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>10 <small>meetings</small></h6>
@@ -285,7 +345,7 @@
                                 <small class="m-0"><i class="fa fa-users text-primary mr-2"></i>25 Students</small>
                                 <small class="m-0"><i class="far fa-clock text-primary mr-2"></i>01h 30m</small>
                             </div>
-                            <a class="h5" href="">Python for Web</a>
+                            <a class="h5" data-toggle="modal" href="#PythonModal">Python for Web</a>
                             <div class="border-top mt-4 pt-4">
                                 <div class="d-flex justify-content-between">
                                     <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>10 <small>meetings</small></h6>
@@ -303,7 +363,7 @@
                                 <small class="m-0"><i class="fa fa-users text-primary mr-2"></i>5 Students</small>
                                 <small class="m-0"><i class="far fa-clock text-primary mr-2"></i>02h 30m</small>
                             </div>
-                            <a class="h5" href="">C# for beginner</a>
+                            <a class="h5" data-toggle="modal" href="#CSharpModal">C# for beginner</a>
                             <div class="border-top mt-4 pt-4">
                                 <div class="d-flex justify-content-between">
                                     <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>10 <small>meetings</small></h6>
@@ -321,7 +381,7 @@
                                 <small class="m-0"><i class="fa fa-users text-primary mr-2"></i>5 Students</small>
                                 <small class="m-0"><i class="far fa-clock text-primary mr-2"></i>02h 30m</small>
                             </div>
-                            <a class="h5" href="">C# for advanced</a>
+                            <a class="h5" data-toggle="modal" href="#CSharpModal">C# for advanced</a>
                             <div class="border-top mt-4 pt-4">
                                 <div class="d-flex justify-content-between">
                                     <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>10 <small>meetings</small></h6>
@@ -339,7 +399,7 @@
                                 <small class="m-0"><i class="fa fa-users text-primary mr-2"></i>5 Students</small>
                                 <small class="m-0"><i class="far fa-clock text-primary mr-2"></i>02h 30m</small>
                             </div>
-                            <a class="h5" href="">ASP.NET Core</a>
+                            <a class="h5" data-toggle="modal" href="#CSharpModal">ASP.NET Core</a>
                             <div class="border-top mt-4 pt-4">
                                 <div class="d-flex justify-content-between">
                                     <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>10 <small>meetings</small></h6>
